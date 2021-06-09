@@ -1,0 +1,13 @@
+{
+  "staging": {
+    "baseUrl": "http://localhost:3000"
+  },
+  "preProd": {
+    "baseUrl": "http://localhost:3000"
+  },
+  "common": {
+    "posts": "/posts",
+    "comments": "/comments",
+    "users": "/users"
+  }
+}

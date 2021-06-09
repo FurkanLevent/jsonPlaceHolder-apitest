@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="jsonplaceholder-typicode-post-tests" verbose="1">
+    <listeners>
+        <listener class-name="common.MyTestListener"/>
+    </listeners>
+    <test name="post-tests">
+        <parameter name="userName" value="Delphine"/>
+        <classes>
+            <class name="tests.PostTests">
+                <methods>
+                    <include name="checkGetAllUsers"/>
+                    <include name="checkGetUser"/>
+                    <include name="checkGetPostsByUserId"/>
+                    <include name="checkPostComments"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
