@@ -22,10 +22,14 @@ jobs:
       - run:
           name: Test
           command: mvn test
+<<<<<<< HEAD
       - run:
           name: Sonarqube
           command: mvn sonar:sonar   -Dsonar.projectKey=jsonPlaceHolder-apitest   -Dsonar.host.url=http://localhost:9000   -Dsonar.login=e9c5cfe57d4e4c36217d50d95543d5dda03ef1b4
 tp://localhost:9000   -Dsonar.login=e9c5cfe57d4e4c36217d50d95543d5dda03ef1b4
+=======
+          command: mvn sonar:sonar   -Dsonar.projectKey=jsonPlaceHolder-apitest   -Dsonar.host.url=http://localhost:9000   -Dsonar.login=e9c5cfe57d4e4c36217d50d95543d5dda03ef1b4
+>>>>>>> 61814e7e1764de22060386fddc24475882538fa6
 
 workflows:
   # Below is the definition of your workflow.
