@@ -1,5 +1,5 @@
-[CircleCI] <img alt="CircleCI" src="https://img.shields.io/circleci/build/github/FurkanLevent/jsonPlaceHolder-apitest">
 # jsonPlaceHolder API Test with Rest Assured
+<img alt="CircleCI" src="https://img.shields.io/circleci/build/github/FurkanLevent/jsonPlaceHolder-apitest">  <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/FurkanLevent/jsonPlaceHolder-apitest"> [![Quality Gate Status](http://localhost:9000/api/project_badges/measure?project=jsonPlaceHolder-apitest&metric=alert_status)](http://localhost:9000/dashboard?id=jsonPlaceHolder-apitest)
 
 To perform the validations for the comments for the post made by a specific user.
 
