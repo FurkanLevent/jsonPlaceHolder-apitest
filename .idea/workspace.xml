@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47e3c0e1-832d-4e56-b0b8-c26ba8a9d6d1" name="Default Changelist" comment="" />
+    <list default="true" id="47e3c0e1-832d-4e56-b0b8-c26ba8a9d6d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api-testing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/api-testing-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/.sonar_lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/report-task.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,10 +30,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            <state relative-caret-position="2115">
+              <caret line="141" selection-start-line="141" selection-end-line="141" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/common/MyTestListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -27,64 +50,132 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/PostTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+            <state relative-caret-position="354">
+              <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="119" column="21" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/allure-results/3bf92ba3-10c7-48bb-affb-9916dab15f22-result.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/target/sonar/report-task.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="300">
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-testing.iml">
+        <entry file="file://$PROJECT_DIR$/test-output/old/jsonplaceholder-typicode-post-tests/reporter-output.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="39" selection-start-column="39" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-output/old/jsonplaceholder-typicode-post-tests/testng.xml.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="113" selection-start-column="113" selection-end-column="113" />
+              <folding>
+                <element signature="e#94#98#0" expanded="true" />
+                <element signature="e#102#108#0" expanded="true" />
+                <element signature="e#121#127#0" expanded="true" />
+                <element signature="e#144#148#0" expanded="true" />
+                <element signature="e#153#157#0" expanded="true" />
+                <element signature="e#165#171#0" expanded="true" />
+                <element signature="e#176#182#0" expanded="true" />
+                <element signature="e#188#194#0" expanded="true" />
+                <element signature="e#228#232#0" expanded="true" />
+                <element signature="e#237#241#0" expanded="true" />
+                <element signature="e#246#252#0" expanded="true" />
+                <element signature="e#294#300#0" expanded="true" />
+                <element signature="e#325#329#0" expanded="true" />
+                <element signature="e#334#340#0" expanded="true" />
+                <element signature="e#340#346#0" expanded="true" />
+                <element signature="e#346#350#0" expanded="true" />
+                <element signature="e#359#363#0" expanded="true" />
+                <element signature="e#368#374#0" expanded="true" />
+                <element signature="e#374#380#0" expanded="true" />
+                <element signature="e#380#386#0" expanded="true" />
+                <element signature="e#386#392#0" expanded="true" />
+                <element signature="e#392#396#0" expanded="true" />
+                <element signature="e#404#410#0" expanded="true" />
+                <element signature="e#445#449#0" expanded="true" />
+                <element signature="e#454#460#0" expanded="true" />
+                <element signature="e#460#466#0" expanded="true" />
+                <element signature="e#466#470#0" expanded="true" />
+                <element signature="e#480#484#0" expanded="true" />
+                <element signature="e#489#495#0" expanded="true" />
+                <element signature="e#495#501#0" expanded="true" />
+                <element signature="e#501#505#0" expanded="true" />
+                <element signature="e#509#515#0" expanded="true" />
+                <element signature="e#531#537#0" expanded="true" />
+                <element signature="e#554#558#0" expanded="true" />
+                <element signature="e#563#569#0" expanded="true" />
+                <element signature="e#569#575#0" expanded="true" />
+                <element signature="e#575#581#0" expanded="true" />
+                <element signature="e#581#587#0" expanded="true" />
+                <element signature="e#587#591#0" expanded="true" />
+                <element signature="e#600#606#0" expanded="true" />
+                <element signature="e#1442#1448#0" expanded="true" />
+                <element signature="e#1450#1454#0" expanded="true" />
+                <element signature="e#1459#1465#0" expanded="true" />
+                <element signature="e#1465#1471#0" expanded="true" />
+                <element signature="e#1471#1477#0" expanded="true" />
+                <element signature="e#1477#1483#0" expanded="true" />
+                <element signature="e#1483#1487#0" expanded="true" />
+                <element signature="e#1495#1499#0" expanded="true" />
+                <element signature="e#1504#1510#0" expanded="true" />
+                <element signature="e#1510#1516#0" expanded="true" />
+                <element signature="e#1516#1520#0" expanded="true" />
+                <element signature="e#1525#1529#0" expanded="true" />
+                <element signature="e#1529#1535#0" expanded="true" />
+                <element signature="e#1535#1539#0" expanded="true" />
+                <element signature="e#1542#1548#0" expanded="true" />
+                <element signature="e#1558#1564#0" expanded="true" />
+                <element signature="e#1566#1570#0" expanded="true" />
+                <element signature="e#1575#1579#0" expanded="true" />
+                <element signature="e#1585#1589#0" expanded="true" />
+                <element signature="e#1589#1595#0" expanded="true" />
+                <element signature="e#1595#1599#0" expanded="true" />
+                <element signature="e#1602#1608#0" expanded="true" />
+                <element signature="e#1643#1649#0" expanded="true" />
+                <element signature="e#1651#1655#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-output/old/jsonplaceholder-typicode-post-tests/main.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/FileUtils.java">
+        <entry file="file://$PROJECT_DIR$/test-output/old/jsonplaceholder-typicode-post-tests/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-output/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="45">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/NegativePostTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="33" column="31" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,6 +198,8 @@
       <find>testn</find>
       <find>3.1</find>
       <find>son</find>
+      <find>allure</find>
+      <find>org.testng</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,12 +228,25 @@
         <option value="$PROJECT_DIR$/src/main/resources/environments.json" />
         <option value="$PROJECT_DIR$/src/main/java/common/MyTestListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/CommonTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/Spec.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/PostTests.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/settings.xml" />
+        <option value="$PROJECT_DIR$/src/test/gatling/Search" />
+        <option value="$PROJECT_DIR$/src/test/gatling/config/config" />
+        <option value="$PROJECT_DIR$/src/test/gatling/config/requests" />
+        <option value="$PROJECT_DIR$/src/test/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/PostTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/Spec.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/NegativePostTests.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -158,7 +264,9 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -176,13 +284,28 @@
             <path>
               <item name="jsonPlaceHolder-apitest" type="b2602c69:ProjectViewProjectNode" />
               <item name="jsonPlaceHolder-apitest" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jsonPlaceHolder-apitest" type="b2602c69:ProjectViewProjectNode" />
               <item name="jsonPlaceHolder-apitest" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="sonar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsonPlaceHolder-apitest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsonPlaceHolder-apitest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsonPlaceHolder-apitest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsonPlaceHolder-apitest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,18 +316,14 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/main/java/common" />
-      <recent name="$PROJECT_DIR$/src/test/java/models" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Configuration" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tests" />
@@ -212,8 +331,12 @@
       <recent name="components" />
       <recent name="utils" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Configuration" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/common" />
+      <recent name="$PROJECT_DIR$/src/test/java/models" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -228,13 +351,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/furkanleventoturaklioglu/Downloads/api-testing/testng.xml">
+  <component name="RunManager" selected="TestNG./Users/furkanleventoturaklioglu/jsonPlaceHolder-apitest/testng.xml">
     <configuration name="jsonPlaceHolder.getUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-testing" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="jsonPlaceHolder" />
       <option name="METHOD_NAME" value="getUsers" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
+      <setting name="vmparams4" value="-Djline.terminal=NONE" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="consoleArgs" value="-usejavacp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -273,41 +404,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostTests.verifyGetAllUsers" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="api-testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="trainingRestAssured.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="trainingRestAssured" />
-      <option name="MAIN_CLASS_NAME" value="trainingRestAssured.PostTests" />
-      <option name="METHOD_NAME" value="verifyGetAllUsers" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/furkanleventoturaklioglu/Downloads/api-testing/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/furkanleventoturaklioglu/jsonPlaceHolder-apitest/testng.xml" type="TestNG" nameIsGenerated="true">
       <module name="api-testing" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
-      <listeners />
+      <listeners>
+        <listener class="common.MyTestListener" />
+      </listeners>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.jsonPlaceHolder.getUsers" />
+      <item itemvalue="Scala Console.Scala Console" />
+      <item itemvalue="TestNG./Users/furkanleventoturaklioglu/jsonPlaceHolder-apitest/testng.xml" />
+      <item itemvalue="TestNG.PostTests" />
+      <item itemvalue="TestNG.PostTests (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/furkanleventoturaklioglu/Downloads/api-testing/testng.xml" />
         <item itemvalue="TestNG.PostTests (1)" />
+        <item itemvalue="Scala Console.Scala Console" />
         <item itemvalue="JUnit.jsonPlaceHolder.getUsers" />
         <item itemvalue="TestNG.PostTests" />
-        <item itemvalue="TestNG.PostTests.verifyGetAllUsers" />
       </list>
     </recent_temporary>
   </component>
@@ -328,35 +458,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_furkanleventoturaklioglu_Downloads_api-testing_testng_xml - 2021.06.09 at 15h 55m 30s.xml">
-      <configuration name="/Users/furkanleventoturaklioglu/Downloads/api-testing/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_furkanleventoturaklioglu_Downloads_api-testing_testng_xml - 2021.06.09 at 16h 08m 07s.xml">
-      <configuration name="/Users/furkanleventoturaklioglu/Downloads/api-testing/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_furkanleventoturaklioglu_Downloads_api-testing_testng_xml - 2021.06.09 at 16h 08m 11s.xml">
-      <configuration name="/Users/furkanleventoturaklioglu/Downloads/api-testing/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PostTests_(1) - 2021.06.09 at 16h 08m 14s.xml">
+    <history-entry file="PostTests_(1) - 2021.06.10 at 00h 04m 58s.xml">
       <configuration name="PostTests (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_furkanleventoturaklioglu_Downloads_api-testing_testng_xml - 2021.06.09 at 16h 08m 23s.xml">
+    <history-entry file="_Users_furkanleventoturaklioglu_Downloads_api-testing_testng_xml - 2021.06.10 at 00h 08m 14s.xml">
       <configuration name="/Users/furkanleventoturaklioglu/Downloads/api-testing/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_furkanleventoturaklioglu_Downloads_api-testing_testng_xml - 2021.06.09 at 16h 08m 58s.xml">
+    <history-entry file="_Users_furkanleventoturaklioglu_Downloads_api-testing_testng_xml - 2021.06.10 at 00h 29m 59s.xml">
       <configuration name="/Users/furkanleventoturaklioglu/Downloads/api-testing/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_furkanleventoturaklioglu_Downloads_api-testing_testng_xml - 2021.06.09 at 16h 09m 38s.xml">
+    <history-entry file="_Users_furkanleventoturaklioglu_Downloads_api-testing_testng_xml - 2021.06.10 at 13h 20m 51s.xml">
       <configuration name="/Users/furkanleventoturaklioglu/Downloads/api-testing/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_furkanleventoturaklioglu_Downloads_api-testing_testng_xml - 2021.06.09 at 16h 10m 19s.xml">
+    <history-entry file="_Users_furkanleventoturaklioglu_Downloads_api-testing_testng_xml - 2021.06.10 at 13h 21m 38s.xml">
       <configuration name="/Users/furkanleventoturaklioglu/Downloads/api-testing/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_furkanleventoturaklioglu_Downloads_api-testing_testng_xml - 2021.06.09 at 16h 10m 58s.xml">
+    <history-entry file="_Users_furkanleventoturaklioglu_Downloads_api-testing_testng_xml - 2021.06.10 at 13h 25m 48s.xml">
       <configuration name="/Users/furkanleventoturaklioglu/Downloads/api-testing/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_furkanleventoturaklioglu_Downloads_api-testing_testng_xml - 2021.06.09 at 16h 12m 05s.xml">
+    <history-entry file="_Users_furkanleventoturaklioglu_Downloads_api-testing_testng_xml - 2021.06.10 at 13h 35m 16s.xml">
       <configuration name="/Users/furkanleventoturaklioglu/Downloads/api-testing/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_furkanleventoturaklioglu_jsonPlaceHolder-apitest_testng_xml - 2021.06.10 at 13h 39m 06s.xml">
+      <configuration name="/Users/furkanleventoturaklioglu/jsonPlaceHolder-apitest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_furkanleventoturaklioglu_jsonPlaceHolder-apitest_testng_xml - 2021.06.10 at 13h 49m 50s.xml">
+      <configuration name="/Users/furkanleventoturaklioglu/jsonPlaceHolder-apitest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_furkanleventoturaklioglu_jsonPlaceHolder-apitest_testng_xml - 2021.06.10 at 13h 53m 59s.xml">
+      <configuration name="/Users/furkanleventoturaklioglu/jsonPlaceHolder-apitest/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -371,7 +501,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3018598" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3018598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -381,12 +511,12 @@
       <window_info id="DB Browser" order="7" weight="0.33333334" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29491946" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29491946" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32961586" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" visible="true" weight="0.32713756" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.32713756" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50143063" side_tool="true" weight="0.3283767" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32961586" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
@@ -421,22 +551,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar!/io/restassured/RestAssured.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="139" column="39" selection-start-line="139" selection-start-column="39" selection-end-line="139" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://ce76c316-d92a-47c4-a3d0-9e74e90f85a7/consoles/ApiTestingDB@localhost">
-      <provider selected="true" editor-type-id="0.CONSOLE">
-        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Ex_Files_Java_Automated-2/Exercise Files/02_03/end/api-testing/src/test/java/trainingxyz/ApiTests.java" />
-    <entry file="file://$PROJECT_DIR$/../Ex_Files_Java_Automated/Exercise Files/02_03/end/api-testing/src/test/java/trainingxyz/ApiTests.java" />
     <entry file="file://$PROJECT_DIR$/src/main/Config.properties" />
     <entry file="file://$PROJECT_DIR$/src/test/java/components/Spec.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/resources/log4j2.xml" />
@@ -450,36 +564,10 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/trainingRestAssured/PostTests.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/trainingRestAssured/RestTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/trainingRestAssured/apiTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/MyLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/common/CommonTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/MyTestListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1217#1218#0" expanded="true" />
-            <element signature="e#1287#1288#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -494,23 +582,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     <entry file="file://$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" />
     <entry file="file://$PROJECT_DIR$/target/surefire-reports/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/Spec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/components/UserComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/isValidEmailAddress.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/jsonPlaceHolder.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/models/User.java">
@@ -576,34 +649,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/PostTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="119" column="21" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/allure-results/3bf92ba3-10c7-48bb-affb-9916dab15f22-result.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-testing.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/FileUtils.java">
@@ -622,6 +668,228 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/target/sonar/report-task.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/gatling/Search">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#40#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/gatling/config/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/gatling/config/requests">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scriptFile.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/MyLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/Spec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-results/99306748-5c20-4f06-b788-b697666c9440-attachment.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-results/0a533815-64c3-4d62-ac73-4bd349b72216-attachment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="57" selection-start-column="57" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/components/UserComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-testing.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-results/f3492baf-e725-4726-b4f4-dac3b738659c-attachment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/maven-archiver/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/site/serenity/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/old/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="119" selection-start-line="6" selection-start-column="119" selection-end-line="6" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/old/jsonplaceholder-typicode-post-tests/reporter-output.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/old/jsonplaceholder-typicode-post-tests/testng.xml.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="113" selection-start-column="113" selection-end-column="113" />
+          <folding>
+            <element signature="e#94#98#0" expanded="true" />
+            <element signature="e#102#108#0" expanded="true" />
+            <element signature="e#121#127#0" expanded="true" />
+            <element signature="e#144#148#0" expanded="true" />
+            <element signature="e#153#157#0" expanded="true" />
+            <element signature="e#165#171#0" expanded="true" />
+            <element signature="e#176#182#0" expanded="true" />
+            <element signature="e#188#194#0" expanded="true" />
+            <element signature="e#228#232#0" expanded="true" />
+            <element signature="e#237#241#0" expanded="true" />
+            <element signature="e#246#252#0" expanded="true" />
+            <element signature="e#294#300#0" expanded="true" />
+            <element signature="e#325#329#0" expanded="true" />
+            <element signature="e#334#340#0" expanded="true" />
+            <element signature="e#340#346#0" expanded="true" />
+            <element signature="e#346#350#0" expanded="true" />
+            <element signature="e#359#363#0" expanded="true" />
+            <element signature="e#368#374#0" expanded="true" />
+            <element signature="e#374#380#0" expanded="true" />
+            <element signature="e#380#386#0" expanded="true" />
+            <element signature="e#386#392#0" expanded="true" />
+            <element signature="e#392#396#0" expanded="true" />
+            <element signature="e#404#410#0" expanded="true" />
+            <element signature="e#445#449#0" expanded="true" />
+            <element signature="e#454#460#0" expanded="true" />
+            <element signature="e#460#466#0" expanded="true" />
+            <element signature="e#466#470#0" expanded="true" />
+            <element signature="e#480#484#0" expanded="true" />
+            <element signature="e#489#495#0" expanded="true" />
+            <element signature="e#495#501#0" expanded="true" />
+            <element signature="e#501#505#0" expanded="true" />
+            <element signature="e#509#515#0" expanded="true" />
+            <element signature="e#531#537#0" expanded="true" />
+            <element signature="e#554#558#0" expanded="true" />
+            <element signature="e#563#569#0" expanded="true" />
+            <element signature="e#569#575#0" expanded="true" />
+            <element signature="e#575#581#0" expanded="true" />
+            <element signature="e#581#587#0" expanded="true" />
+            <element signature="e#587#591#0" expanded="true" />
+            <element signature="e#600#606#0" expanded="true" />
+            <element signature="e#1442#1448#0" expanded="true" />
+            <element signature="e#1450#1454#0" expanded="true" />
+            <element signature="e#1459#1465#0" expanded="true" />
+            <element signature="e#1465#1471#0" expanded="true" />
+            <element signature="e#1471#1477#0" expanded="true" />
+            <element signature="e#1477#1483#0" expanded="true" />
+            <element signature="e#1483#1487#0" expanded="true" />
+            <element signature="e#1495#1499#0" expanded="true" />
+            <element signature="e#1504#1510#0" expanded="true" />
+            <element signature="e#1510#1516#0" expanded="true" />
+            <element signature="e#1516#1520#0" expanded="true" />
+            <element signature="e#1525#1529#0" expanded="true" />
+            <element signature="e#1529#1535#0" expanded="true" />
+            <element signature="e#1535#1539#0" expanded="true" />
+            <element signature="e#1542#1548#0" expanded="true" />
+            <element signature="e#1558#1564#0" expanded="true" />
+            <element signature="e#1566#1570#0" expanded="true" />
+            <element signature="e#1575#1579#0" expanded="true" />
+            <element signature="e#1585#1589#0" expanded="true" />
+            <element signature="e#1589#1595#0" expanded="true" />
+            <element signature="e#1595#1599#0" expanded="true" />
+            <element signature="e#1602#1608#0" expanded="true" />
+            <element signature="e#1643#1649#0" expanded="true" />
+            <element signature="e#1651#1655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/old/jsonplaceholder-typicode-post-tests/main.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/old/jsonplaceholder-typicode-post-tests/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/PostTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/MyTestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2115">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/NegativePostTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -652,6 +920,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>scala-sdk-2.12.10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

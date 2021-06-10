@@ -5,6 +5,9 @@
     </listeners>
     <test name="post-tests">
         <parameter name="userName" value="Delphine"/>
+        <parameter name="invalidUserName" value="FLO"/>
+        <parameter name="invalidUserId" value="123456"/>
+        <parameter name="invalidPostId" value="123456"/>
         <classes>
             <class name="tests.PostTests">
                 <methods>
@@ -14,6 +17,15 @@
                     <include name="checkPostComments"/>
                 </methods>
             </class>
+
+            <class name="tests.NegativePostTests">
+                <methods>
+                    <include name="verifyGetUserWithInvalidNameReturnsAnEmptyArray"/>
+                    <include name="verifyGetPostsByInvalidUserIdReturnsAnEmptyArray"/>
+                    <include name="verifyGetPostCommentsByInvalidPostIdReturnsAnEmptyArray"/>
+                </methods>
+            </class>
+
         </classes>
     </test>
 </suite>

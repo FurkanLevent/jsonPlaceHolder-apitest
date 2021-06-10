@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-10T13:53:56 EET" name="jsonplaceholder-typicode-post-tests" finished-at="2021-06-10T13:53:58 EET" duration-ms="2852">
+    <groups>
+    </groups>
+    <test started-at="2021-06-10T13:53:56 EET" name="post-tests" finished-at="2021-06-10T13:53:58 EET" duration-ms="2852">
+      <class name="tests.NegativePostTests">
+        <test-method signature="verifyGetUserWithInvalidNameReturnsAnEmptyArray(java.lang.String)[pri:0, instance:tests.NegativePostTests@5bb3d42d]" started-at="2021-06-10T13:53:58 EET" name="verifyGetUserWithInvalidNameReturnsAnEmptyArray" finished-at="2021-06-10T13:53:58 EET" duration-ms="40" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FLO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetUserWithInvalidNameReturnsAnEmptyArray -->
+        <test-method signature="verifyGetPostsByInvalidUserIdReturnsAnEmptyArray(java.lang.String)[pri:0, instance:tests.NegativePostTests@5bb3d42d]" started-at="2021-06-10T13:53:58 EET" name="verifyGetPostsByInvalidUserIdReturnsAnEmptyArray" finished-at="2021-06-10T13:53:58 EET" duration-ms="47" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetPostsByInvalidUserIdReturnsAnEmptyArray -->
+        <test-method signature="verifyGetPostCommentsByInvalidPostIdReturnsAnEmptyArray(java.lang.String)[pri:0, instance:tests.NegativePostTests@5bb3d42d]" started-at="2021-06-10T13:53:58 EET" name="verifyGetPostCommentsByInvalidPostIdReturnsAnEmptyArray" finished-at="2021-06-10T13:53:58 EET" duration-ms="44" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetPostCommentsByInvalidPostIdReturnsAnEmptyArray -->
+      </class> <!-- tests.NegativePostTests -->
+      <class name="tests.PostTests">
+        <test-method signature="checkGetAllUsers()[pri:0, instance:tests.PostTests@1af1347d]" started-at="2021-06-10T13:53:56 EET" name="checkGetAllUsers" finished-at="2021-06-10T13:53:57 EET" duration-ms="1014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGetAllUsers -->
+        <test-method signature="checkGetUser(java.lang.String)[pri:0, instance:tests.PostTests@1af1347d]" started-at="2021-06-10T13:53:57 EET" name="checkGetUser" finished-at="2021-06-10T13:53:57 EET" duration-ms="379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delphine]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGetUser -->
+        <test-method signature="checkGetPostsByUserId()[pri:0, instance:tests.PostTests@1af1347d]" started-at="2021-06-10T13:53:57 EET" name="checkGetPostsByUserId" finished-at="2021-06-10T13:53:58 EET" depends-on-methods="tests.PostTests.checkGetUser" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGetPostsByUserId -->
+        <test-method signature="checkPostComments()[pri:0, instance:tests.PostTests@1af1347d]" started-at="2021-06-10T13:53:58 EET" name="checkPostComments" finished-at="2021-06-10T13:53:58 EET" depends-on-methods="tests.PostTests.checkGetPostsByUserId" duration-ms="742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPostComments -->
+      </class> <!-- tests.PostTests -->
+    </test> <!-- post-tests -->
+  </suite> <!-- jsonplaceholder-typicode-post-tests -->
+</testng-results>

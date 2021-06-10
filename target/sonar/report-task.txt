@@ -2,5 +2,5 @@ projectKey=jsonPlaceHolder-apitest
 serverUrl=http://localhost:9000
 serverVersion=8.9.0.43852
 dashboardUrl=http://localhost:9000/dashboard?id=jsonPlaceHolder-apitest
-ceTaskId=AXnyL62seFR7YwDL-HA1
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXnyL62seFR7YwDL-HA1
+ceTaskId=AXn1ldCJeFR7YwDL-HA3
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXn1ldCJeFR7YwDL-HA3

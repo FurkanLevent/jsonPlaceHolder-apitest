@@ -1,0 +1,357 @@
+<div>Status code 200 </div>
+
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    &lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;/&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;./style.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css&quot;/&gt;
+    &lt;script src=&quot;//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://use.fontawesome.com/releases/v5.5.0/css/all.css&quot; integrity=&quot;sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU&quot; crossorigin=&quot;anonymous&quot;/&gt;
+    &lt;script&gt;
+      hljs.initHighlightingOnLoad()
+    &lt;/script&gt;
+    &lt;title&gt;JSONPlaceholder - Fake online REST API for developers&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;header&gt;
+      &lt;div class=&quot;announcement&quot;&gt;
+
+        This service is maintained and provided for free, please consider
+        supporting it on
+                &lt;a shape=&quot;rect&quot; href=&quot;https://github.com/users/typicode/sponsorship&quot;&gt;GitHub Sponsors&lt;/a&gt;
+
+        ❤️
+            &lt;/div&gt;
+      &lt;nav class=&quot;container&quot;&gt;
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;a shape=&quot;rect&quot; href=&quot;/&quot;&gt;JSONPlaceholder&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a shape=&quot;rect&quot; href=&quot;/guide.html&quot;&gt;Guide&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a shape=&quot;rect&quot; href=&quot;https://github.com/typicode&quot;&gt;GitHub&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a shape=&quot;rect&quot; href=&quot;https://my-json-server.typicode.com&quot;&gt;My JSON Server&lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/nav&gt;
+    &lt;/header&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;hero&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+          &lt;h1&gt;
+        JSONPlaceholder
+      &lt;/h1&gt;
+          &lt;p class=&quot;subtitle&quot;&gt;
+
+        Fake Online REST API for Testing and Prototyping
+                    &lt;br clear=&quot;none&quot;/&gt;
+            &lt;b&gt;Serving ~350M requests per month&lt;/b&gt;
+            &lt;br clear=&quot;none&quot;/&gt;
+ Powered by
+                    &lt;a shape=&quot;rect&quot; href=&quot;https://github.com/typicode/json-server&quot;&gt;JSON Server&lt;/a&gt;
+
+        +
+                    &lt;a shape=&quot;rect&quot; href=&quot;https://github.com/typicode/lowdb&quot;&gt;LowDB&lt;/a&gt;
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sponsors&quot;&gt;
+        &lt;h3&gt;Gold Sponsors&lt;/h3&gt;
+        &lt;p&gt;
+          &lt;a shape=&quot;rect&quot; href=&quot;https://tryretool.com/?utm_source=sponsor&amp;amp;utm_campaign=typicode&quot; target=&quot;_blank&quot;&gt;
+            &lt;img src=&quot;https://i.imgur.com/IBItATn.png&quot; height=&quot;70px&quot;/&gt;
+          &lt;/a&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+          &lt;a shape=&quot;rect&quot; href=&quot;https://www.checklyhq.com/?utm_source=jsonplaceholder&quot; target=&quot;_blank&quot;&gt;
+            &lt;img src=&quot;https://i.imgur.com/qS8XyfG.png&quot; height=&quot;70px&quot;/&gt;
+          &lt;/a&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+          &lt;a shape=&quot;rect&quot; href=&quot;https://www.patreon.com/bePatron?c=784328&quot;&gt;Your Company Logo Here&lt;/a&gt;
+        &lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        &lt;main&gt;
+          &lt;h2&gt;Intro&lt;/h2&gt;
+          &lt;p&gt;
+
+        JSONPlaceholder is a free online REST API that you can use whenever you need some fake data.
+                    &lt;br clear=&quot;none&quot;/&gt;
+It&#39;s great for tutorials, testing new libraries, sharing code examples, ...
+                &lt;/p&gt;
+          &lt;h2&gt;Example&lt;/h2&gt;
+          &lt;p&gt;
+        Run this code in a console or from any site:
+      &lt;/p&gt;
+          &lt;pre&gt;
+            &lt;code class=&quot;javascript&quot; id=&quot;example&quot;&gt;fetch(&#39;https://jsonplaceholder.typicode.com/todos/1&#39;)
+  .then(response =&amp;gt; response.json())
+  .then(json =&amp;gt; console.log(json))
+&lt;/code&gt;
+          &lt;/pre&gt;
+          &lt;p&gt;
+            &lt;button type=&quot;submit&quot; id=&quot;run-button&quot;&gt;Try it&lt;/button&gt;
+          &lt;/p&gt;
+          &lt;pre&gt;
+            &lt;code class=&quot;json&quot; id=&quot;result&quot;/&gt;
+          &lt;/pre&gt;
+          &lt;span id=&quot;run-message&quot;&gt;Congrats you&#39;ve made your first call to JSONPlaceholder! 😃 🎉&lt;/span&gt;
+          &lt;p&gt;
+            &lt;strong&gt;Tip&lt;/strong&gt;
+: you can use
+                    &lt;b&gt;
+          http://
+        &lt;/b&gt;
+ or
+                    &lt;b&gt;
+          https://
+        &lt;/b&gt;
+ when making requests to JSONPlaceholder.
+                &lt;/p&gt;
+          &lt;div id=&quot;codefund&quot;/&gt;
+          &lt;script src=&quot;https://app.codefund.io/properties/338/funder.js&quot; async=&quot;async&quot;/&gt;
+          &lt;h2&gt;Resources&lt;/h2&gt;
+          &lt;p&gt;
+        JSONPlaceholder comes with a set of 6 common resources:
+      &lt;/p&gt;
+          &lt;table class=&quot;resources&quot;&gt;
+            &lt;tr&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;
+                &lt;a shape=&quot;rect&quot; href=&quot;/posts&quot;&gt;/posts&lt;/a&gt;
+              &lt;/td&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;100 posts&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;
+                &lt;a shape=&quot;rect&quot; href=&quot;/comments&quot;&gt;/comments&lt;/a&gt;
+              &lt;/td&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;500 comments&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;
+                &lt;a shape=&quot;rect&quot; href=&quot;/albums&quot;&gt;/albums&lt;/a&gt;
+              &lt;/td&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;100 albums&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;
+                &lt;a shape=&quot;rect&quot; href=&quot;/photos&quot;&gt;/photos&lt;/a&gt;
+              &lt;/td&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;5000 photos&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;
+                &lt;a shape=&quot;rect&quot; href=&quot;/todos&quot;&gt;/todos&lt;/a&gt;
+              &lt;/td&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;200 todos&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;
+                &lt;a shape=&quot;rect&quot; href=&quot;/users&quot;&gt;/users&lt;/a&gt;
+              &lt;/td&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;10 users&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/table&gt;
+          &lt;p&gt;
+            &lt;strong&gt;Note&lt;/strong&gt;
+: resources have relations. For example:
+                    &lt;b&gt;posts&lt;/b&gt;
+ have many
+                    &lt;b&gt;comments&lt;/b&gt;
+,
+                    &lt;b&gt;albums&lt;/b&gt;
+ have many
+                    &lt;b&gt;photos&lt;/b&gt;
+, ... see below for routes examples.
+                &lt;/p&gt;
+          &lt;h2&gt;Routes&lt;/h2&gt;
+          &lt;p&gt;
+        All HTTP methods are supported.
+      &lt;/p&gt;
+          &lt;table&gt;
+            &lt;tr&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;GET&lt;/td&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;
+                &lt;a shape=&quot;rect&quot; href=&quot;/posts&quot;&gt;/posts&lt;/a&gt;
+              &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;GET&lt;/td&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;
+                &lt;a shape=&quot;rect&quot; href=&quot;/posts/1&quot;&gt;/posts/1&lt;/a&gt;
+              &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;GET&lt;/td&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;
+                &lt;a shape=&quot;rect&quot; href=&quot;/posts/1/comments&quot;&gt;/posts/1/comments&lt;/a&gt;
+              &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;GET&lt;/td&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;
+                &lt;a shape=&quot;rect&quot; href=&quot;/comments?postId=1&quot;&gt;/comments?postId=1&lt;/a&gt;
+              &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;GET&lt;/td&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;
+                &lt;a shape=&quot;rect&quot; href=&quot;/posts?userId=1&quot;&gt;/posts?userId=1&lt;/a&gt;
+              &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;POST&lt;/td&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;/posts&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;PUT&lt;/td&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;/posts/1&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;PATCH&lt;/td&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;/posts/1&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;DELETE&lt;/td&gt;
+              &lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;/posts/1&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/table&gt;
+          &lt;p&gt;
+            &lt;strong&gt;Note&lt;/strong&gt;
+: you can view detailed examples
+                    &lt;a shape=&quot;rect&quot; href=&quot;/guide/&quot;&gt;here&lt;/a&gt;
+.
+                &lt;/p&gt;
+          &lt;h2&gt;Use your own data&lt;/h2&gt;
+          &lt;p&gt;
+
+        With             &lt;a shape=&quot;rect&quot; href=&quot;https://my-json-server.typicode.com&quot;&gt;My JSON Server&lt;/a&gt;
+ online service and a simple GitHub repo, you can have your own online fake REST server in seconds.
+                &lt;/p&gt;
+        &lt;/main&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;footer&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        &lt;div style=&quot;margin-bottom: 2rem;&quot;&gt;
+          &lt;a shape=&quot;rect&quot; href=&quot;https://github.com/users/typicode/sponsorship&quot;&gt;
+            &lt;i class=&quot;fab fa-github-alt&quot;/&gt;
+            &lt;strong&gt;Sponsor this project on GitHub&lt;/strong&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+
+          Coded and built with ❤️ by
+                    &lt;a shape=&quot;rect&quot; href=&quot;https://github.com/typicode&quot;&gt;typicode&lt;/a&gt;
+          &lt;br clear=&quot;none&quot;/&gt;
+Source code and CHANGELOG available on
+                    &lt;a shape=&quot;rect&quot; href=&quot;https://github.com/typicode/jsonplaceholder&quot;&gt;GitHub&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/footer&gt;
+    &lt;script&gt;
+      ;(function (i, s, o, g, r, a, m) {
+        i[&#39;GoogleAnalyticsObject&#39;] = r
+        ;(i[r] =
+          i[r] ||
+          function () {
+            ;(i[r].q = i[r].q || []).push(arguments)
+          }),
+          (i[r].l = 1 * new Date())
+        ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+        a.async = 1
+        a.src = g
+        m.parentNode.insertBefore(a, m)
+      })(
+        window,
+        document,
+        &#39;script&#39;,
+        &#39;//www.google-analytics.com/analytics.js&#39;,
+        &#39;ga&#39;,
+      )
+      ga(&#39;create&#39;, &#39;UA-44497010-1&#39;, &#39;typicode.com&#39;)
+      ga(&#39;send&#39;, &#39;pageview&#39;)
+      var trackOutboundLink = function (url) {
+        ga(&#39;send&#39;, &#39;event&#39;, &#39;outbound&#39;, &#39;click&#39;, url, {
+          transport: &#39;beacon&#39;,
+        })
+      }
+    &lt;/script&gt;
+    &lt;script src=&quot;//cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js&quot;/&gt;
+    &lt;script&gt;
+      // Use http or https based on location.protocol
+      var example = document.getElementById(&#39;example&#39;)
+      example.textContent = example.textContent.replace(
+        &#39;http:&#39;,
+        location.protocol,
+      )
+
+      // Highlight result element
+      var result = document.getElementById(&#39;result&#39;)
+      hljs.highlightBlock(result)
+
+      // Run example
+      var runButton = document.getElementById(&#39;run-button&#39;)
+      runButton.onclick = function () {
+        var root = location.protocol + &#39;//jsonplaceholder.typicode.com&#39;
+        var runMessage = document.getElementById(&#39;run-message&#39;)
+
+        // Hide or disable things during API call
+        runButton.disabled = true
+        runMessage.style.opacity = 0
+        result.style.opacity = 0
+
+        fetch(&#39;https://jsonplaceholder.typicode.com/todos/1&#39;)
+          .then((response) =&amp;gt; response.json())
+          .then((json) =&amp;gt; {
+            var str = JSON.stringify(json, null, &#39;\t&#39;)
+
+            // Format result
+            result.innerHTML = str
+              .replace(/\n/g, &#39;&amp;lt;br/&amp;gt;&#39;)
+              .replace(/\\n/g, &#39; &#39;)
+              .replace(/\t/g, &#39;&amp;amp;nbsp;&amp;amp;nbsp;&#39;)
+
+            hljs.highlightBlock(result)
+
+            // Show and enable things after API call
+            runButton.disabled = false
+            runMessage.style.opacity = 1
+            result.style.opacity = 1
+          })
+      }
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Keep-Alive: timeout=5</div>
+        <div>Transfer-Encoding: chunked</div>
+        <div>Connection: keep-alive</div>
+        <div>Last-Modified: Thu, 03 Jun 2021 09:20:06 GMT</div>
+        <div>Date: Wed, 09 Jun 2021 20:55:11 GMT</div>
+        <div>Accept-Ranges: bytes</div>
+        <div>Cache-Control: public, max-age=0</div>
+        <div>ETag: W/&quot;286d-179d12c35e2&quot;</div>
+        <div>Access-Control-Allow-Credentials: true</div>
+        <div>Content-Encoding: deflate</div>
+        <div>Vary: Origin, Accept-Encoding</div>
+        <div>X-Powered-By: Express</div>
+        <div>Content-Type: text/html; charset=UTF-8</div>
+</div>
+
+
