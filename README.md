@@ -43,11 +43,11 @@ In order to utilise this project you need to have the following installed locall
 
 # Setup
 
-To run, navigate to jsonPlaceHolder-apitest directory and run:
+- To run, navigate to jsonPlaceHolder-apitest directory and run:
 
 mvn clean install
 
-To run SonarQube in your local:
+- To run SonarQube in your local:
 
 mvn sonar:sonar
 -Dsonar.projectKey=jsonPlaceHolder-apitest
@@ -57,9 +57,9 @@ mvn sonar:sonar
 
 # Reporting
 
-Reports for each module are written into their respective /target directories after a successful run.
+- Reports for each module are written into their respective /target directories after a successful run.
 
-SonarQube Quality Status:
+- SonarQube Quality Status:
 
 <img width="1439" alt="image" src="https://user-images.githubusercontent.com/12385700/121608109-f5393800-ca59-11eb-8817-54f4dced7010.png">
 
